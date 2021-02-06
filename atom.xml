@@ -6,7 +6,7 @@
   <link href="http://github.com/atom.xml" rel="self"/>
   
   <link href="http://github.com/"/>
-  <updated>2021-02-06T16:29:48.394Z</updated>
+  <updated>2021-02-06T16:38:09.830Z</updated>
   <id>http://github.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://github.com/2021/02/06/CDLL%E5%92%8CWinDLL%E7%9A%84%E5%8C%BA%E5%88%AB/"/>
     <id>http://github.com/2021/02/06/CDLL%E5%92%8CWinDLL%E7%9A%84%E5%8C%BA%E5%88%AB/</id>
     <published>2021-02-06T13:56:07.000Z</published>
-    <updated>2021-02-06T16:29:48.394Z</updated>
+    <updated>2021-02-06T16:38:09.830Z</updated>
     
     <content type="html"><![CDATA[<h1 id="CDLL和WinDLL的区别"><a href="#CDLL和WinDLL的区别" class="headerlink" title="CDLL和WinDLL的区别"></a>CDLL和WinDLL的区别</h1><h2 id="区别"><a href="#区别" class="headerlink" title="区别"></a>区别</h2><p>Python要调用C语言或者C++写的动态连接库，要用到<code>ctypes</code>库<br>而<code>ctypes</code>库其实背后做了很多，它提供了三个easy载入动态连接库的对象：<code>cdll</code>、<code>windll</code>和<code>oledll</code><br>通过访问这三个对象的属性，就能够调用动态连接库的函数了<br><font color="pink">其中</font></p><ul><li><code>cdll</code>主要用来载入C语言调用方式（<code>cdecl</code>）  </li><li><code>windll</code>主要用来载入WIN32调用方式（<code>stdcall</code>）</li><li><code>oledll</code>使用WIN32调用方式（<code>stdcall</code>）且返回值是Windows里返回的HRESULT值<br><font color="BlueViolet">而调用时，最需要注意的去别在于</font><br><font color="Violet"><code>cdll</code>是使用调用者清除的栈的方式。而<code>windll</code>和<code>oledll</code>是使用被调用者清除的方式</font>   </li></ul><h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><h3 id="引入ctypes库"><a href="#引入ctypes库" class="headerlink" title="引入ctypes库"></a>引入<code>ctypes</code>库</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> ctypes <span class="keyword">import</span> *</span><br></pre></td></tr></table></figure><h3 id="加载dll"><a href="#加载dll" class="headerlink" title="加载dll"></a>加载dll</h3><h4 id="stdcall调用约定"><a href="#stdcall调用约定" class="headerlink" title="stdcall调用约定"></a><code>stdcall</code>调用约定</h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Objdll = ctypes.WinDLL(<span class="string">"dllpath"</span>)</span><br></pre></td></tr></table></figure><h4 id="cdecl调用约定"><a href="#cdecl调用约定" class="headerlink" title="cdecl调用约定"></a><code>cdecl</code>调用约定</h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Objdll = ctypes.CDLL(<span class="string">"dllpath"</span>)</span><br></pre></td></tr></table></figure><h2 id="如果有更复杂的使用需求，访问这个"><a href="#如果有更复杂的使用需求，访问这个" class="headerlink" title="如果有更复杂的使用需求，访问这个"></a>如果有更复杂的使用需求，访问这个</h2><p><a href="https://www.cnblogs.com/baihuitestsoftware/articles/5345089.html" target="_blank" rel="noopener">https://www.cnblogs.com/baihuitestsoftware/articles/5345089.html</a></p>]]></content>
     
@@ -36,11 +36,11 @@
     <category term="万千问题" scheme="http://github.com/categories/%E4%B8%87%E5%8D%83%E9%97%AE%E9%A2%98/"/>
     
     
-    <category term="Windows" scheme="http://github.com/tags/Windows/"/>
-    
     <category term="Python" scheme="http://github.com/tags/Python/"/>
     
     <category term="C语言" scheme="http://github.com/tags/C%E8%AF%AD%E8%A8%80/"/>
+    
+    <category term="Windows" scheme="http://github.com/tags/Windows/"/>
     
   </entry>
   
@@ -79,9 +79,9 @@
     <link href="http://github.com/2021/02/06/%E7%94%9F%E6%88%90%E5%8F%AF%E4%BE%9B%E8%B0%83%E7%94%A8%E7%9A%84dll%E6%8E%A8%E7%90%86%E5%BA%93/"/>
     <id>http://github.com/2021/02/06/%E7%94%9F%E6%88%90%E5%8F%AF%E4%BE%9B%E8%B0%83%E7%94%A8%E7%9A%84dll%E6%8E%A8%E7%90%86%E5%BA%93/</id>
     <published>2021-02-06T08:04:17.000Z</published>
-    <updated>2021-02-06T16:37:22.496Z</updated>
+    <updated>2021-02-06T16:49:30.636Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="生成可供调用的dll推理库"><a href="#生成可供调用的dll推理库" class="headerlink" title="生成可供调用的dll推理库"></a>生成可供调用的dll推理库</h1><h2 id="编辑好-cpp文件"><a href="#编辑好-cpp文件" class="headerlink" title="编辑好.cpp文件"></a>编辑好<code>.cpp</code>文件</h2><p>因为是做目标检测所以我在写检测脚本的时候加入图像处理操作，但是没有单独放接口出来</p><h3 id="添加接口文件"><a href="#添加接口文件" class="headerlink" title="添加接口文件"></a>添加接口文件</h3><p>在头文件中添加接口文件</p><h3 id="接口函数导出"><a href="#接口函数导出" class="headerlink" title="接口函数导出"></a>接口函数导出</h3><p>因为要实现外部调用，所以应给出相应的接口，我使用的是<code>extern &quot;C&quot; __declspec(dllexport)标记方法</code>  的方式进行导出的<br><font color="hotpink">如果是跨语言调用的话，此处注意调用方式的区别，详情参考我的另一篇博客</font><br><a href="/2021/02/06/CDLL和WinDLL的区别/">CDLL和WinDLL的区别</a>   </p><h3 id="修改文件"><a href="#修改文件" class="headerlink" title="修改文件"></a>修改文件</h3><p>因为正常的<code>.cpp</code>文件编译后是生成<code>.exe</code>可执行文件且入口函数为<code>int main()</code>，而现在我们是要打包成dll动态推理库，所以我们要将<code>int main()</code> 改造成一个可与外部对接的导出函数<br>网上这里的教程都不太一样，我尝试了几个方案我都使用不通，就根据自己的情况自行修改了<br><img src="/2021/02/06/%E7%94%9F%E6%88%90%E5%8F%AF%E4%BE%9B%E8%B0%83%E7%94%A8%E7%9A%84dll%E6%8E%A8%E7%90%86%E5%BA%93/1.png" alt></p><h2 id="生成dll文件"><a href="#生成dll文件" class="headerlink" title="生成dll文件"></a>生成dll文件</h2><h3 id="打开-项目-gt-属性-gt-常规-gt-配置类型-gt-动态库"><a href="#打开-项目-gt-属性-gt-常规-gt-配置类型-gt-动态库" class="headerlink" title="打开 项目-&gt;属性-&gt;常规-&gt;配置类型-&gt;动态库"></a>打开 项目-&gt;属性-&gt;常规-&gt;配置类型-&gt;动态库</h3><p><img src="/2021/02/06/%E7%94%9F%E6%88%90%E5%8F%AF%E4%BE%9B%E8%B0%83%E7%94%A8%E7%9A%84dll%E6%8E%A8%E7%90%86%E5%BA%93/2.png" alt></p><h3 id="然后生成"><a href="#然后生成" class="headerlink" title="然后生成"></a>然后生成</h3><h2 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h2><p>在生成的dll文件所在的文件夹下进入powershell，然后执行<code>Python</code>命令<br>然后依次输入</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> ctypes <span class="keyword">import</span> *</span><br><span class="line">dll = CDLL(dll_path)</span><br><span class="line">print(dll.derived_function())</span><br></pre></td></tr></table></figure><p><font color="Tomato">此处有一些小坑要注意：  </font></p><ul><li>dll_path最好使用绝对路径</li><li>你的dll文件所在的目录一定要加到系统环境变量里，不然你一晚上都不会能读到这个dll文件的，血泪教训！！！  :sob: :cupid:</li><li>当然如果你的dll文件的接口没写好的话也是没法调用的，这个时候就要自行判断问题所在了  </li></ul><h2 id="测试效果"><a href="#测试效果" class="headerlink" title="测试效果"></a>测试效果</h2><p><img src="/2021/02/06/%E7%94%9F%E6%88%90%E5%8F%AF%E4%BE%9B%E8%B0%83%E7%94%A8%E7%9A%84dll%E6%8E%A8%E7%90%86%E5%BA%93/3.png" alt><br><img src="/2021/02/06/%E7%94%9F%E6%88%90%E5%8F%AF%E4%BE%9B%E8%B0%83%E7%94%A8%E7%9A%84dll%E6%8E%A8%E7%90%86%E5%BA%93/4.png" alt></p><h2 id="上位机中调用"><a href="#上位机中调用" class="headerlink" title="上位机中调用"></a>上位机中调用</h2><p>看我另一篇博客<br><a href="/2021/02/06/C#写上位机调用dll推理库/">C#写上位机调用dll推理库</a> </p>]]></content>
+    <content type="html"><![CDATA[<h1 id="生成可供调用的dll推理库"><a href="#生成可供调用的dll推理库" class="headerlink" title="生成可供调用的dll推理库"></a>生成可供调用的dll推理库</h1><h2 id="编辑好-cpp文件"><a href="#编辑好-cpp文件" class="headerlink" title="编辑好.cpp文件"></a>编辑好<code>.cpp</code>文件</h2><p>因为是做目标检测所以我在写检测脚本的时候加入图像处理操作，但是没有单独放接口出来</p><h3 id="添加接口文件"><a href="#添加接口文件" class="headerlink" title="添加接口文件"></a>添加接口文件</h3><p>在头文件中添加接口文件</p><h3 id="接口函数导出"><a href="#接口函数导出" class="headerlink" title="接口函数导出"></a>接口函数导出</h3><p>因为要实现外部调用，所以应给出相应的接口，我使用的是<code>extern &quot;C&quot; __declspec(dllexport)标记方法</code>  的方式进行导出的<br><font color="hotpink">如果是跨语言调用的话，此处注意调用方式的区别，详情参考我的另一篇博客</font><br><a href="/2021/02/06/CDLL和WinDLL的区别/">CDLL和WinDLL的区别</a>   </p><h3 id="修改文件"><a href="#修改文件" class="headerlink" title="修改文件"></a>修改文件</h3><p>因为正常的<code>.cpp</code>文件编译后是生成<code>.exe</code>可执行文件且入口函数为<code>int main()</code>，而现在我们是要打包成dll动态推理库，所以我们要将<code>int main()</code> 改造成一个可与外部对接的导出函数<br>网上这里的教程都不太一样，我尝试了几个方案我都使用不通，就根据自己的情况自行修改了<br><img src="/2021/02/06/%E7%94%9F%E6%88%90%E5%8F%AF%E4%BE%9B%E8%B0%83%E7%94%A8%E7%9A%84dll%E6%8E%A8%E7%90%86%E5%BA%93/1.png" alt></p><h2 id="生成dll文件"><a href="#生成dll文件" class="headerlink" title="生成dll文件"></a>生成dll文件</h2><h3 id="打开-项目-gt-属性-gt-常规-gt-配置类型-gt-动态库"><a href="#打开-项目-gt-属性-gt-常规-gt-配置类型-gt-动态库" class="headerlink" title="打开 项目-&gt;属性-&gt;常规-&gt;配置类型-&gt;动态库"></a>打开 项目-&gt;属性-&gt;常规-&gt;配置类型-&gt;动态库</h3><p><img src="/2021/02/06/%E7%94%9F%E6%88%90%E5%8F%AF%E4%BE%9B%E8%B0%83%E7%94%A8%E7%9A%84dll%E6%8E%A8%E7%90%86%E5%BA%93/2.png" alt></p><h3 id="然后生成"><a href="#然后生成" class="headerlink" title="然后生成"></a>然后生成</h3><h2 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h2><p>在生成的dll文件所在的文件夹下进入powershell，然后执行<code>Python</code>命令<br>然后依次输入</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> ctypes <span class="keyword">import</span> *</span><br><span class="line">dll = CDLL(dll_path)</span><br><span class="line">print(dll.derived_function())</span><br></pre></td></tr></table></figure><p><font color="Tomato">此处有一些小坑要注意：  </font></p><ul><li>dll_path最好使用绝对路径</li><li>你的dll文件所在的目录一定要加到系统环境变量里，不然你一晚上都不会能读到这个dll文件的，血泪教训！！！  :sob: :cupid:</li><li>当然如果你的dll文件的接口没写好的话也是没法调用的，这个时候就要自行判断问题所在了  </li></ul><h2 id="测试效果"><a href="#测试效果" class="headerlink" title="测试效果"></a>测试效果</h2><p><img src="/2021/02/06/%E7%94%9F%E6%88%90%E5%8F%AF%E4%BE%9B%E8%B0%83%E7%94%A8%E7%9A%84dll%E6%8E%A8%E7%90%86%E5%BA%93/3.png" alt><br><img src="/2021/02/06/%E7%94%9F%E6%88%90%E5%8F%AF%E4%BE%9B%E8%B0%83%E7%94%A8%E7%9A%84dll%E6%8E%A8%E7%90%86%E5%BA%93/4.png" alt></p><h2 id="上位机中调用"><a href="#上位机中调用" class="headerlink" title="上位机中调用"></a>上位机中调用</h2><p>看我另一篇博客<br><a href="/2021/02/06/C%20sharp写上位机调用dll推理库/">C#写上位机调用dll推理库</a> </p>]]></content>
     
     
       
@@ -122,9 +122,9 @@
     <category term="万千问题" scheme="http://github.com/categories/%E4%B8%87%E5%8D%83%E9%97%AE%E9%A2%98/"/>
     
     
-    <category term="github" scheme="http://github.com/tags/github/"/>
-    
     <category term="Windows" scheme="http://github.com/tags/Windows/"/>
+    
+    <category term="github" scheme="http://github.com/tags/github/"/>
     
   </entry>
   
