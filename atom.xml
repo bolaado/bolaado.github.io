@@ -6,7 +6,7 @@
   <link href="http://github.com/atom.xml" rel="self"/>
   
   <link href="http://github.com/"/>
-  <updated>2021-02-06T08:05:17.971Z</updated>
+  <updated>2021-02-06T08:35:32.563Z</updated>
   <id>http://github.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://github.com/2021/02/06/C%20sharp%E5%86%99%E4%B8%8A%E4%BD%8D%E6%9C%BA%E8%B0%83%E7%94%A8dll%E6%8E%A8%E7%90%86%E5%BA%93/"/>
     <id>http://github.com/2021/02/06/C%20sharp%E5%86%99%E4%B8%8A%E4%BD%8D%E6%9C%BA%E8%B0%83%E7%94%A8dll%E6%8E%A8%E7%90%86%E5%BA%93/</id>
     <published>2021-02-06T08:05:17.000Z</published>
-    <updated>2021-02-06T08:05:17.971Z</updated>
+    <updated>2021-02-06T08:35:32.563Z</updated>
     
     
     
@@ -34,7 +34,7 @@
     <link href="http://github.com/2021/02/06/%E7%94%9F%E6%88%90%E5%8F%AF%E4%BE%9B%E8%B0%83%E7%94%A8%E7%9A%84dll%E6%8E%A8%E7%90%86%E5%BA%93/"/>
     <id>http://github.com/2021/02/06/%E7%94%9F%E6%88%90%E5%8F%AF%E4%BE%9B%E8%B0%83%E7%94%A8%E7%9A%84dll%E6%8E%A8%E7%90%86%E5%BA%93/</id>
     <published>2021-02-06T08:04:17.000Z</published>
-    <updated>2021-02-06T08:34:57.045Z</updated>
+    <updated>2021-02-06T08:48:12.650Z</updated>
     
     
     
@@ -213,9 +213,9 @@
     <category term="安装" scheme="http://github.com/categories/%E5%AE%89%E8%A3%85/"/>
     
     
-    <category term="Windows" scheme="http://github.com/tags/Windows/"/>
-    
     <category term="paddle" scheme="http://github.com/tags/paddle/"/>
+    
+    <category term="Windows" scheme="http://github.com/tags/Windows/"/>
     
   </entry>
   
@@ -224,7 +224,7 @@
     <link href="http://github.com/2020/10/01/Solving-environment-failed-with-initial-frozen-solve-Retrying-with-flexible-solve/"/>
     <id>http://github.com/2020/10/01/Solving-environment-failed-with-initial-frozen-solve-Retrying-with-flexible-solve/</id>
     <published>2020-10-01T13:49:40.000Z</published>
-    <updated>2021-02-06T08:34:47.773Z</updated>
+    <updated>2021-02-06T08:45:15.445Z</updated>
     
     <content type="html"><![CDATA[<h1 id="Solving-environment-failed-with-initial-frozen-solve-Retrying-with-flexible-solve"><a href="#Solving-environment-failed-with-initial-frozen-solve-Retrying-with-flexible-solve" class="headerlink" title="Solving environment: failed with initial frozen solve.Retrying with flexible solve"></a>Solving environment: failed with initial frozen solve.Retrying with flexible solve</h1><p>用conda装paddle的时候出现了这个报错  </p><h2 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h2><p><code>conda update -n base conda</code><br><code>conda update --all</code><br><font color="BlueViolet">然后如果还是不行，就再加一行（但实际上大部分情况这样就可以了）</font><br><code>conda update --prefix</code><br>会自己跳出来一段后面的目录，不用管它回车就行了，然后常规操作，我挑出来过是否允许python.exe都点允许，然后命令行出现y/n就都填y就好，完成后再一次<code>conda update --all</code><br>最后安装好之后，尝试一下进入python解释器，输入</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">import paddle.fluid</span><br><span class="line">paddle.fluid.install_check.run_check()</span><br></pre></td></tr></table></figure><p>出现如下图就成功了<br><img src="/2020/10/01/Solving-environment-failed-with-initial-frozen-solve-Retrying-with-flexible-solve/1.png" alt></p>]]></content>
     
@@ -236,12 +236,14 @@
     
     
     
-    <category term="-[安装, 遇见的问题]" scheme="http://github.com/categories/%E5%AE%89%E8%A3%85-%E9%81%87%E8%A7%81%E7%9A%84%E9%97%AE%E9%A2%98/"/>
+    <category term="安装" scheme="http://github.com/categories/%E5%AE%89%E8%A3%85/"/>
     
+    <category term="遇见的问题" scheme="http://github.com/categories/%E5%AE%89%E8%A3%85/%E9%81%87%E8%A7%81%E7%9A%84%E9%97%AE%E9%A2%98/"/>
     
-    <category term="paddle" scheme="http://github.com/tags/paddle/"/>
     
     <category term="conda" scheme="http://github.com/tags/conda/"/>
+    
+    <category term="paddle" scheme="http://github.com/tags/paddle/"/>
     
   </entry>
   
