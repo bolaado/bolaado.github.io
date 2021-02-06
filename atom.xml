@@ -6,7 +6,7 @@
   <link href="http://github.com/atom.xml" rel="self"/>
   
   <link href="http://github.com/"/>
-  <updated>2020-11-21T10:08:52.974Z</updated>
+  <updated>2021-02-06T08:05:17.971Z</updated>
   <id>http://github.com/</id>
   
   <author>
@@ -15,6 +15,40 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>C#写上位机调用dll推理库</title>
+    <link href="http://github.com/2021/02/06/C%20sharp%E5%86%99%E4%B8%8A%E4%BD%8D%E6%9C%BA%E8%B0%83%E7%94%A8dll%E6%8E%A8%E7%90%86%E5%BA%93/"/>
+    <id>http://github.com/2021/02/06/C%20sharp%E5%86%99%E4%B8%8A%E4%BD%8D%E6%9C%BA%E8%B0%83%E7%94%A8dll%E6%8E%A8%E7%90%86%E5%BA%93/</id>
+    <published>2021-02-06T08:05:17.000Z</published>
+    <updated>2021-02-06T08:05:17.971Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>生成可供调用的dll推理库</title>
+    <link href="http://github.com/2021/02/06/%E7%94%9F%E6%88%90%E5%8F%AF%E4%BE%9B%E8%B0%83%E7%94%A8%E7%9A%84dll%E6%8E%A8%E7%90%86%E5%BA%93/"/>
+    <id>http://github.com/2021/02/06/%E7%94%9F%E6%88%90%E5%8F%AF%E4%BE%9B%E8%B0%83%E7%94%A8%E7%9A%84dll%E6%8E%A8%E7%90%86%E5%BA%93/</id>
+    <published>2021-02-06T08:04:17.000Z</published>
+    <updated>2021-02-06T08:34:57.045Z</updated>
+    
+    
+    
+    
+    
+    <category term="C++" scheme="http://github.com/tags/C/"/>
+    
+    <category term="PaddleX" scheme="http://github.com/tags/PaddleX/"/>
+    
+    <category term="Paddle" scheme="http://github.com/tags/Paddle/"/>
+    
+    <category term="dll" scheme="http://github.com/tags/dll/"/>
+    
+  </entry>
   
   <entry>
     <title>攻防世界逆向新手区</title>
@@ -35,26 +69,6 @@
     
     
     <category term="逆向" scheme="http://github.com/tags/%E9%80%86%E5%90%91/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://github.com/2020/11/21/hello-world/"/>
-    <id>http://github.com/2020/11/21/hello-world/</id>
-    <published>2020-11-21T07:27:37.694Z</published>
-    <updated>2020-11-21T10:08:52.967Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.</summary>
-      
-    
-    
-    
     
   </entry>
   
@@ -110,7 +124,7 @@
     <link href="http://github.com/2020/10/03/%E5%9B%9B%E7%A7%8D%E5%8E%BB%E5%99%AA%E6%93%8D%E4%BD%9C/"/>
     <id>http://github.com/2020/10/03/%E5%9B%9B%E7%A7%8D%E5%8E%BB%E5%99%AA%E6%93%8D%E4%BD%9C/</id>
     <published>2020-10-03T12:18:06.000Z</published>
-    <updated>2020-11-21T10:08:52.973Z</updated>
+    <updated>2021-02-06T08:34:54.876Z</updated>
     
     <content type="html"><![CDATA[<h1 id="四种常见的去噪操作"><a href="#四种常见的去噪操作" class="headerlink" title="四种常见的去噪操作"></a>四种常见的去噪操作</h1><h2 id="均值滤波"><a href="#均值滤波" class="headerlink" title="均值滤波"></a>均值滤波</h2><p>当对一个值进行滤波时，使用当前值与周围8个值之和，取平均做为当前值</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cv2.blur(img, (<span class="number">3</span>, <span class="number">3</span>))</span><br><span class="line"><span class="comment"># 第二个参数代表进行均值滤波的方框大小</span></span><br></pre></td></tr></table></figure><h2 id="方框滤波"><a href="#方框滤波" class="headerlink" title="方框滤波"></a>方框滤波</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cv2.boxfilter(img, <span class="number">-1</span>, (<span class="number">3</span>, <span class="number">3</span>), normalize=<span class="literal">True</span>)</span><br><span class="line"><span class="comment"># 当normalize=True时，与均值滤波结果相同， normalize=False，表示对加和后的九个点不进行平均操作，大于255的使用255表示</span></span><br></pre></td></tr></table></figure><h2 id="高斯滤波"><a href="#高斯滤波" class="headerlink" title="高斯滤波"></a>高斯滤波</h2><p>$$<br>G(x) =<br>\begin{cases}<br>\frac {1}{\sqrt{2\pi}\sigma}e^{-\frac {x^2}{2 \sigma^2}}<br>\end{cases}<br>$$<br>根据高斯的距离对周围的点进行加权,求平均值1，0.8， 0.6， 0.8</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cv2.Guassianblur(img, (<span class="number">3</span>, <span class="number">3</span>), <span class="number">1</span>)</span><br><span class="line"><span class="comment"># 1表示σ， x表示与当前值得距离，计算出的G(x)表示权重值</span></span><br></pre></td></tr></table></figure><h2 id="中值滤波"><a href="#中值滤波" class="headerlink" title="中值滤波"></a>中值滤波</h2><p>相当于将9个值进行排序，取中值作为当前值</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cv2.medianBlur(img, <span class="number">3</span>)</span><br><span class="line"><span class="comment"># 3表示当前的方框尺寸</span></span><br></pre></td></tr></table></figure><h2 id="合并"><a href="#合并" class="headerlink" title="合并"></a>合并</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">img = np.vstack(要合并的几个图像名，用逗号分隔)</span><br></pre></td></tr></table></figure>]]></content>
     
@@ -122,10 +136,12 @@
     
     
     
-    <category term="OpenCV" scheme="http://github.com/categories/OpenCV/"/>
+    <category term="-[视觉, OpenCV]" scheme="http://github.com/categories/%E8%A7%86%E8%A7%89-OpenCV/"/>
     
     
     <category term="Python" scheme="http://github.com/tags/Python/"/>
+    
+    <category term="OpenCV" scheme="http://github.com/tags/OpenCV/"/>
     
   </entry>
   
@@ -134,7 +150,7 @@
     <link href="http://github.com/2020/10/02/Python%E4%B8%AD%E7%9A%84reshape/"/>
     <id>http://github.com/2020/10/02/Python%E4%B8%AD%E7%9A%84reshape/</id>
     <published>2020-10-02T12:43:01.000Z</published>
-    <updated>2020-11-21T10:08:52.965Z</updated>
+    <updated>2021-02-06T08:32:50.663Z</updated>
     
     <content type="html"><![CDATA[<h1 id="Python中的reshape"><a href="#Python中的reshape" class="headerlink" title="Python中的reshape()"></a>Python中的reshape()</h1><p><code>reshape(x, newshape, order=&#39;C&#39;)</code><br>reshape函数用于改变数组形状，且原数据不发生变化</p><h2 id="order参数"><a href="#order参数" class="headerlink" title="order参数"></a>order参数</h2><p>其中<code>order=&#39;C&#39;</code>代表是按照行顺序，<br>如果是F则是按照列顺序，<br>如果是A则是按照数据在内存中存储的顺序来  </p><h2 id="x参数"><a href="#x参数" class="headerlink" title="x参数"></a>x参数</h2><p>代表新数组行数</p><h2 id="newshape参数"><a href="#newshape参数" class="headerlink" title="newshape参数"></a>newshape参数</h2><p>代表新数组列数<br><font color="HotPink">当x=-1的时候，newshape给定列数，行数则由Numpy自行计算<br>当newshape=-1的时候，x给定行数，列数则由Numpy自行计算<br></font></p>]]></content>
     
@@ -156,7 +172,7 @@
     <link href="http://github.com/2020/10/02/opencv%E7%BB%98%E5%9B%BE%E5%87%BD%E6%95%B0/"/>
     <id>http://github.com/2020/10/02/opencv%E7%BB%98%E5%9B%BE%E5%87%BD%E6%95%B0/</id>
     <published>2020-10-02T11:24:03.000Z</published>
-    <updated>2020-11-21T10:08:52.970Z</updated>
+    <updated>2021-02-06T08:33:42.529Z</updated>
     
     <content type="html"><![CDATA[<h1 id="opencv绘图函数"><a href="#opencv绘图函数" class="headerlink" title="opencv绘图函数"></a>opencv绘图函数</h1><p><font color="BlueViolet">首先要创造一个背景图，</font></p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">img=np.zeros((像素高,像素宽,<span class="number">3</span>), np.uint8)</span><br><span class="line"><span class="comment"># 3代表BGR三种颜色，uint8是用0-255表示所有颜色，此时为黑色背景</span></span><br></pre></td></tr></table></figure><p>其实np.zeros()只两个参数，第一个是创建的图片矩阵大小，第二个是数据类型，所以<code>np.uint8</code>可以被<code>(B, G, R)</code>代替，这样就可以改变背景颜色<br></p><h2 id="直线"><a href="#直线" class="headerlink" title="直线"></a>直线</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">    cv2.line(图像名, 起点坐标, 终点坐标, 颜色数组, 线宽)</span><br><span class="line">&#96;&#96;&#96;  </span><br><span class="line">## 矩形</span><br></pre></td></tr></table></figure><pre><code>cv2.rectangle(图像名, 左上顶点坐标, 右下顶点左边, 颜色数组, 线宽)</code></pre><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&lt;font color&#x3D;&quot;DeepPink&quot;&gt;当线宽为-1时，表示封闭图形的颜色填充&lt;&#x2F;font&gt;</span><br><span class="line">## 圆</span><br><span class="line">&#96;&#96;&#96;Python</span><br><span class="line">    cv2.circle(图像名, 圆心坐标, 半径, 颜色数组, 线宽)</span><br></pre></td></tr></table></figure><h2 id="椭圆"><a href="#椭圆" class="headerlink" title="椭圆"></a>椭圆</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cv2.ellipse(图像名, 中心坐标, (长轴长, 短轴长), 椭圆沿逆时针方向旋转的角度, 长轴顺时针方向起始的角度, 结束角度, 颜色数组, 线宽)</span><br></pre></td></tr></table></figure><h2 id="多边形"><a href="#多边形" class="headerlink" title="多边形"></a>多边形</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">pts = np.array([顶点列表], np.int32)</span><br><span class="line">pts = pts.reshape((<span class="number">-1</span>,<span class="number">1</span>,<span class="number">2</span>))</span><br><span class="line">img = cv2.polylines(图像名, [pts], <span class="literal">True</span>, 颜色数组, 线宽)</span><br></pre></td></tr></table></figure><p><font color="Yellow">关于<code>reshape()</code>函数可以看我的另一篇博客</font><br><a href="https://bolaado.github.io/2020/10/02/Python%E4%B8%AD%E7%9A%84reshape/" target="_blank" rel="noopener">https://bolaado.github.io/2020/10/02/Python%E4%B8%AD%E7%9A%84reshape/</a></p>]]></content>
     
@@ -168,10 +184,12 @@
     
     
     
-    <category term="OpenCV" scheme="http://github.com/categories/OpenCV/"/>
+    <category term="-[视觉, OpenCV]" scheme="http://github.com/categories/%E8%A7%86%E8%A7%89-OpenCV/"/>
     
     
     <category term="Python" scheme="http://github.com/tags/Python/"/>
+    
+    <category term="OpenCV" scheme="http://github.com/tags/OpenCV/"/>
     
   </entry>
   
@@ -180,7 +198,7 @@
     <link href="http://github.com/2020/10/01/PaddlePaddle%E5%AE%89%E8%A3%85/"/>
     <id>http://github.com/2020/10/01/PaddlePaddle%E5%AE%89%E8%A3%85/</id>
     <published>2020-10-01T14:19:37.000Z</published>
-    <updated>2020-11-21T10:08:52.964Z</updated>
+    <updated>2021-02-06T08:34:14.556Z</updated>
     
     <content type="html"><![CDATA[<h1 id="安装paddle（飞桨）"><a href="#安装paddle（飞桨）" class="headerlink" title="安装paddle（飞桨）"></a>安装paddle（飞桨）</h1><p>cmd里敲<br>CPU版<br><code>conda install paddlepaddle</code><br>GPU版  </p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"># CUDA 9，cuDNN 7.3+:</span><br><span class="line">conda install paddlepaddle-gpu cudatoolkit&#x3D;9.0</span><br><span class="line"># CUDA 10.0，cuDNN 7.3+</span><br><span class="line">conda install paddlepaddle-gpu cudatoolkit&#x3D;10.0</span><br></pre></td></tr></table></figure><p>没有vpn的话就得换源，输入</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">conda config --add channels https:&#x2F;&#x2F;mirrors.tuna.tsinghua.edu.cn&#x2F;anaconda&#x2F;pkgs&#x2F;free&#x2F;</span><br><span class="line">conda config --add channels https:&#x2F;&#x2F;mirrors.tuna.tsinghua.edu.cn&#x2F;anaconda&#x2F;pkgs&#x2F;main&#x2F;</span><br><span class="line">conda config --add channels https:&#x2F;&#x2F;mirrors.tuna.tsinghua.edu.cn&#x2F;anaconda&#x2F;cloud&#x2F;Paddle&#x2F;</span><br><span class="line">conda config --set show_channel_urls yes</span><br></pre></td></tr></table></figure><p><font color="DeepPink">在命令行里可能敲了<code>-</code>之后，<code>-</code>以及它后面的命令都不会被显示出来，直到有一个空格，也就是说<code>-add</code>可能不会显示出来，这都是正常的，我也不知道为什么之前是不会隐藏的现在突然变了，可能有的人使用的时候并不会</font></p><p>如果出现了问题，看我的另一篇博客<br><a href="https://bolaado.github.io/2020/10/01/Solving-environment-failed-with-initial-frozen-solve-Retrying-with-flexible-solve/" target="_blank" rel="noopener">https://bolaado.github.io/2020/10/01/Solving-environment-failed-with-initial-frozen-solve-Retrying-with-flexible-solve/</a></p>]]></content>
     
@@ -192,10 +210,12 @@
     
     
     
-    <category term="各种安装" scheme="http://github.com/categories/%E5%90%84%E7%A7%8D%E5%AE%89%E8%A3%85/"/>
+    <category term="安装" scheme="http://github.com/categories/%E5%AE%89%E8%A3%85/"/>
     
     
     <category term="Windows" scheme="http://github.com/tags/Windows/"/>
+    
+    <category term="paddle" scheme="http://github.com/tags/paddle/"/>
     
   </entry>
   
@@ -204,7 +224,7 @@
     <link href="http://github.com/2020/10/01/Solving-environment-failed-with-initial-frozen-solve-Retrying-with-flexible-solve/"/>
     <id>http://github.com/2020/10/01/Solving-environment-failed-with-initial-frozen-solve-Retrying-with-flexible-solve/</id>
     <published>2020-10-01T13:49:40.000Z</published>
-    <updated>2020-11-21T10:08:52.969Z</updated>
+    <updated>2021-02-06T08:34:47.773Z</updated>
     
     <content type="html"><![CDATA[<h1 id="Solving-environment-failed-with-initial-frozen-solve-Retrying-with-flexible-solve"><a href="#Solving-environment-failed-with-initial-frozen-solve-Retrying-with-flexible-solve" class="headerlink" title="Solving environment: failed with initial frozen solve.Retrying with flexible solve"></a>Solving environment: failed with initial frozen solve.Retrying with flexible solve</h1><p>用conda装paddle的时候出现了这个报错  </p><h2 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h2><p><code>conda update -n base conda</code><br><code>conda update --all</code><br><font color="BlueViolet">然后如果还是不行，就再加一行（但实际上大部分情况这样就可以了）</font><br><code>conda update --prefix</code><br>会自己跳出来一段后面的目录，不用管它回车就行了，然后常规操作，我挑出来过是否允许python.exe都点允许，然后命令行出现y/n就都填y就好，完成后再一次<code>conda update --all</code><br>最后安装好之后，尝试一下进入python解释器，输入</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">import paddle.fluid</span><br><span class="line">paddle.fluid.install_check.run_check()</span><br></pre></td></tr></table></figure><p>出现如下图就成功了<br><img src="/2020/10/01/Solving-environment-failed-with-initial-frozen-solve-Retrying-with-flexible-solve/1.png" alt></p>]]></content>
     
@@ -216,8 +236,10 @@
     
     
     
-    <category term="各种安装报错" scheme="http://github.com/categories/%E5%90%84%E7%A7%8D%E5%AE%89%E8%A3%85%E6%8A%A5%E9%94%99/"/>
+    <category term="-[安装, 遇见的问题]" scheme="http://github.com/categories/%E5%AE%89%E8%A3%85-%E9%81%87%E8%A7%81%E7%9A%84%E9%97%AE%E9%A2%98/"/>
     
+    
+    <category term="paddle" scheme="http://github.com/tags/paddle/"/>
     
     <category term="conda" scheme="http://github.com/tags/conda/"/>
     
@@ -228,7 +250,7 @@
     <link href="http://github.com/2020/10/01/QGC%E5%AE%89%E8%A3%85/"/>
     <id>http://github.com/2020/10/01/QGC%E5%AE%89%E8%A3%85/</id>
     <published>2020-10-01T12:31:57.000Z</published>
-    <updated>2020-11-21T10:08:52.968Z</updated>
+    <updated>2021-02-06T08:33:07.450Z</updated>
     
     <content type="html"><![CDATA[<h1 id="QGC安装"><a href="#QGC安装" class="headerlink" title="QGC安装"></a>QGC安装</h1><p>大部分的教程都太老了所以整理了一下自己写了一套</p><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><p>直接百度QGC选第一个进官网，进去后如下所示<br><img src="/2020/10/01/QGC%E5%AE%89%E8%A3%85/1.png" alt="1"><br>点download<br><img src="/2020/10/01/QGC%E5%AE%89%E8%A3%85/2.png" alt="2"><br>在Windows下点蓝字就可以开始下载，但是下载有点慢</p><h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p>安装就很简单</p>]]></content>
     
@@ -241,7 +263,7 @@
     
     
     
-    <category term="各种安装" scheme="http://github.com/categories/%E5%90%84%E7%A7%8D%E5%AE%89%E8%A3%85/"/>
+    <category term="安装" scheme="http://github.com/categories/%E5%AE%89%E8%A3%85/"/>
     
     
     <category term="Windows" scheme="http://github.com/tags/Windows/"/>
@@ -253,7 +275,7 @@
     <link href="http://github.com/2020/05/31/HSV%E9%A2%9C%E8%89%B2%E8%AF%86%E5%88%AB%E4%B8%94%E6%A0%87%E6%B3%A8/"/>
     <id>http://github.com/2020/05/31/HSV%E9%A2%9C%E8%89%B2%E8%AF%86%E5%88%AB%E4%B8%94%E6%A0%87%E6%B3%A8/</id>
     <published>2020-05-31T06:54:12.000Z</published>
-    <updated>2020-11-21T10:08:52.962Z</updated>
+    <updated>2021-02-06T08:33:57.537Z</updated>
     
     <content type="html"><![CDATA[<p><font color="HotPink">色调H</font><br>用角度度量，取值范围为0°～360°，从红色开始按逆时针方向计算，红色为0°，绿色为120°,蓝色为240°。它们的补色是：黄色为60°，青色为180°,品红为300°</p><p><font color="HotPink">饱和度S</font><br>饱和度S表示颜色接近光谱色的程度。一种颜色，可以看成是某种光谱色与白色混合的结果。其中光谱色所占的比例愈大，颜色接近光谱色的程度就愈高，颜色的饱和度也就愈高。饱和度高，颜色则深而艳。光谱色的白光成分为0，饱和度达到最高。通常取值范围为0%～100%，值越大，颜色越饱和</p><p><font color="HotPink">明度V</font><br>明度表示颜色明亮的程度，对于光源色，明度值与发光体的光亮度有关；对于物体色，此值和物体的透射比或反射比有关。通常取值范围为0%（黑）到100%（白）</p><h2 id="HSV表"><a href="#HSV表" class="headerlink" title="HSV表"></a>HSV表</h2><p><img src="/2020/05/31/HSV%E9%A2%9C%E8%89%B2%E8%AF%86%E5%88%AB%E4%B8%94%E6%A0%87%E6%B3%A8/1.png" alt></p><p><font color="DarkOrchid">如果想用的颜色不在HSV表里可以去查想要的颜色色号的rgb值，然后用<code>cv2.cvtcolor()</code>函数将bgr转成hsv<br>例如：</font></p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br></pre></td><td class="code"><pre><span class="line">color = np.uint8([[[<span class="number">203</span>, <span class="number">192</span>, <span class="number">255</span>]]])</span><br><span class="line">hsv = cv2.cvtColor(color, cv2.COLOR_BGR2HSV)</span><br><span class="line">```  </span><br><span class="line"></span><br><span class="line"><span class="comment">## 完整代码(视频中)</span></span><br><span class="line">```Python</span><br><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"><span class="keyword">import</span> cv2</span><br><span class="line"></span><br><span class="line">font = cv2.FONT_HERSHEY_SIMPLEX</span><br><span class="line">lower_green = np.array([<span class="number">35</span>, <span class="number">110</span>, <span class="number">106</span>])</span><br><span class="line">upper_green = np.array([<span class="number">77</span>, <span class="number">255</span>, <span class="number">255</span>])</span><br><span class="line"></span><br><span class="line">cap = cv2.VideoCapture(<span class="string">'F:/test/mp4.mp4'</span>)</span><br><span class="line"><span class="keyword">if</span> cap.isOpened():</span><br><span class="line">    flag = <span class="number">1</span></span><br><span class="line"><span class="keyword">else</span>:</span><br><span class="line">    flag = <span class="number">0</span></span><br><span class="line">num = <span class="number">0</span></span><br><span class="line"><span class="keyword">if</span> flag:</span><br><span class="line">    <span class="keyword">while</span> <span class="literal">True</span>:</span><br><span class="line">        ret, frame = cap.read()</span><br><span class="line"></span><br><span class="line">        <span class="keyword">if</span> <span class="keyword">not</span> ret:</span><br><span class="line">            <span class="keyword">break</span></span><br><span class="line">        hsv_img = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)</span><br><span class="line">        mask_green = cv2.inRange(hsv_img, lower_green, upper_green)</span><br><span class="line"></span><br><span class="line">        mask_green = cv2.medianBlur(mask_green, <span class="number">7</span>)</span><br><span class="line">        mask_green, contours, hierarchy = cv2.findContours(mask_green, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_NONE)</span><br><span class="line"></span><br><span class="line">        <span class="keyword">for</span> cnt <span class="keyword">in</span> contours:</span><br><span class="line">            (x, y, w, h) = cv2.boundingRect(cnt)</span><br><span class="line">            cv2.rectangle(frame, (x, y), (x + w, y + h), (<span class="number">0</span>, <span class="number">255</span>, <span class="number">255</span>), <span class="number">2</span>)</span><br><span class="line">            cv2.putText(frame, <span class="string">"Green"</span>, (x, y - <span class="number">5</span>), font, <span class="number">0.7</span>, (<span class="number">0</span>, <span class="number">255</span>, <span class="number">0</span>), <span class="number">2</span>)</span><br><span class="line"></span><br><span class="line">        num = num + <span class="number">1</span></span><br><span class="line">        cv2.imshow(<span class="string">"dection"</span>, frame)</span><br><span class="line">        cv2.imwrite(<span class="string">"imgs/%d.jpg"</span> % num, frame)</span><br><span class="line">        <span class="keyword">if</span> cv2.waitKey(<span class="number">20</span>) &amp; <span class="number">0xFF</span> == <span class="number">27</span>:</span><br><span class="line">            <span class="keyword">break</span></span><br><span class="line">cv2.waitKey(<span class="number">0</span>)</span><br><span class="line">cv2.destroyAllWindows()</span><br></pre></td></tr></table></figure>]]></content>
     
@@ -266,10 +288,12 @@
     
     
     
-    <category term="OpenCV" scheme="http://github.com/categories/OpenCV/"/>
+    <category term="-[视觉, OpenCV]" scheme="http://github.com/categories/%E8%A7%86%E8%A7%89-OpenCV/"/>
     
     
     <category term="Python" scheme="http://github.com/tags/Python/"/>
+    
+    <category term="OpenCV" scheme="http://github.com/tags/OpenCV/"/>
     
   </entry>
   
