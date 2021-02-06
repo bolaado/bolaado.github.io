@@ -6,7 +6,7 @@
   <link href="http://github.com/atom.xml" rel="self"/>
   
   <link href="http://github.com/"/>
-  <updated>2021-02-06T08:35:32.563Z</updated>
+  <updated>2021-02-06T13:38:34.050Z</updated>
   <id>http://github.com/</id>
   
   <author>
@@ -21,11 +21,21 @@
     <link href="http://github.com/2021/02/06/C%20sharp%E5%86%99%E4%B8%8A%E4%BD%8D%E6%9C%BA%E8%B0%83%E7%94%A8dll%E6%8E%A8%E7%90%86%E5%BA%93/"/>
     <id>http://github.com/2021/02/06/C%20sharp%E5%86%99%E4%B8%8A%E4%BD%8D%E6%9C%BA%E8%B0%83%E7%94%A8dll%E6%8E%A8%E7%90%86%E5%BA%93/</id>
     <published>2021-02-06T08:05:17.000Z</published>
-    <updated>2021-02-06T08:35:32.563Z</updated>
+    <updated>2021-02-06T13:38:34.050Z</updated>
     
     
     
     
+    
+    <category term="C++" scheme="http://github.com/tags/C/"/>
+    
+    <category term="PaddleX" scheme="http://github.com/tags/PaddleX/"/>
+    
+    <category term="Paddle" scheme="http://github.com/tags/Paddle/"/>
+    
+    <category term="dll" scheme="http://github.com/tags/dll/"/>
+    
+    <category term="C sharp" scheme="http://github.com/tags/C-sharp/"/>
     
   </entry>
   
@@ -47,6 +57,32 @@
     <category term="Paddle" scheme="http://github.com/tags/Paddle/"/>
     
     <category term="dll" scheme="http://github.com/tags/dll/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Github出现连接超时</title>
+    <link href="http://github.com/2021/02/06/Github%E5%87%BA%E7%8E%B0%E8%BF%9E%E6%8E%A5%E8%B6%85%E6%97%B6/"/>
+    <id>http://github.com/2021/02/06/Github%E5%87%BA%E7%8E%B0%E8%BF%9E%E6%8E%A5%E8%B6%85%E6%97%B6/</id>
+    <published>2021-02-06T07:40:06.000Z</published>
+    <updated>2021-02-06T13:40:51.412Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Github出现连接超时"><a href="#Github出现连接超时" class="headerlink" title="Github出现连接超时"></a>Github出现连接超时</h1><h2 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a><font color="hotpink">解决办法</font></h2><h3 id="修改hosts文件"><a href="#修改hosts文件" class="headerlink" title="修改hosts文件"></a>修改hosts文件</h3><p><font color="pink">用记事本打开即可</font><br>文件路径在<code>C:\Windows\System32\drivers\etc</code><br>添加上，如下图<br><img src="/2021/02/06/Github%E5%87%BA%E7%8E%B0%E8%BF%9E%E6%8E%A5%E8%B6%85%E6%97%B6/1.png" alt="1"></p><h4 id="获取要访问的相关网站的IP"><a href="#获取要访问的相关网站的IP" class="headerlink" title="获取要访问的相关网站的IP"></a><font color="purple">获取要访问的相关网站的IP</font></h4><p>访问<a href="https://www.ipaddress.com" target="_blank" rel="noopener">查询IP</a><br>搜索框内分别输入<code>github.com</code>和<code>github.global.ssl.fastly.net</code>查询对应的IP地址，然后如上图所示格式添加上配置就可以了</p><h2 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h2><p>powershell里<code>ping</code>一下   </p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ping github.com</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Github出现连接超时&quot;&gt;&lt;a href=&quot;#Github出现连接超时&quot; class=&quot;headerlink&quot; title=&quot;Github出现连接超时&quot;&gt;&lt;/a&gt;Github出现连接超时&lt;/h1&gt;&lt;h2 id=&quot;解决办法&quot;&gt;&lt;a href=&quot;#解决办法&quot; cla</summary>
+      
+    
+    
+    
+    <category term="万千问题" scheme="http://github.com/categories/%E4%B8%87%E5%8D%83%E9%97%AE%E9%A2%98/"/>
+    
+    
+    <category term="Windows" scheme="http://github.com/tags/Windows/"/>
+    
+    <category term="github" scheme="http://github.com/tags/github/"/>
     
   </entry>
   
@@ -208,7 +244,7 @@
     <link href="http://github.com/2020/10/01/PaddlePaddle%E5%AE%89%E8%A3%85/"/>
     <id>http://github.com/2020/10/01/PaddlePaddle%E5%AE%89%E8%A3%85/</id>
     <published>2020-10-01T14:19:37.000Z</published>
-    <updated>2021-02-06T13:25:25.340Z</updated>
+    <updated>2021-02-06T13:38:31.677Z</updated>
     
     <content type="html"><![CDATA[<h1 id="安装paddle（飞桨）"><a href="#安装paddle（飞桨）" class="headerlink" title="安装paddle（飞桨）"></a>安装paddle（飞桨）</h1><p>cmd里敲<br>CPU版<br><code>conda install paddlepaddle</code><br>GPU版  </p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"># CUDA 9，cuDNN 7.3+:</span><br><span class="line">conda install paddlepaddle-gpu cudatoolkit&#x3D;9.0</span><br><span class="line"># CUDA 10.0，cuDNN 7.3+</span><br><span class="line">conda install paddlepaddle-gpu cudatoolkit&#x3D;10.0</span><br></pre></td></tr></table></figure><p>没有vpn的话就得换源，输入</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">conda config --add channels https:&#x2F;&#x2F;mirrors.tuna.tsinghua.edu.cn&#x2F;anaconda&#x2F;pkgs&#x2F;free&#x2F;</span><br><span class="line">conda config --add channels https:&#x2F;&#x2F;mirrors.tuna.tsinghua.edu.cn&#x2F;anaconda&#x2F;pkgs&#x2F;main&#x2F;</span><br><span class="line">conda config --add channels https:&#x2F;&#x2F;mirrors.tuna.tsinghua.edu.cn&#x2F;anaconda&#x2F;cloud&#x2F;Paddle&#x2F;</span><br><span class="line">conda config --set show_channel_urls yes</span><br></pre></td></tr></table></figure><p><font color="DeepPink">在命令行里可能敲了<code>-</code>之后，<code>-</code>以及它后面的命令都不会被显示出来，直到有一个空格，也就是说<code>-add</code>可能不会显示出来，这都是正常的，我也不知道为什么之前是不会隐藏的现在突然变了，可能有的人使用的时候并不会</font></p><p>如果出现了问题，看我的另一篇博客<br><a href="https://bolaado.github.io/2020/10/01/Solving-environment-failed-with-initial-frozen-solve-Retrying-with-flexible-solve/" target="_blank" rel="noopener">https://bolaado.github.io/2020/10/01/Solving-environment-failed-with-initial-frozen-solve-Retrying-with-flexible-solve/</a></p>]]></content>
     
@@ -251,9 +287,9 @@
     <category term="遇见的问题" scheme="http://github.com/categories/%E5%AE%89%E8%A3%85/%E9%81%87%E8%A7%81%E7%9A%84%E9%97%AE%E9%A2%98/"/>
     
     
-    <category term="paddle" scheme="http://github.com/tags/paddle/"/>
-    
     <category term="conda" scheme="http://github.com/tags/conda/"/>
+    
+    <category term="paddle" scheme="http://github.com/tags/paddle/"/>
     
   </entry>
   
