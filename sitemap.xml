@@ -193,7 +193,7 @@
   </url>
   
   <url>
-    <loc>http://github.com/tags/OpenCV/</loc>
+    <loc>http://github.com/tags/%E6%97%A5%E7%94%A8/</loc>
     <lastmod>2021-02-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -207,7 +207,7 @@
   </url>
   
   <url>
-    <loc>http://github.com/tags/%E6%97%A5%E7%94%A8/</loc>
+    <loc>http://github.com/tags/OpenCV/</loc>
     <lastmod>2021-02-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -244,7 +244,7 @@
   </url>
   
   <url>
-    <loc>http://github.com/categories/%E8%A7%86%E8%A7%89/</loc>
+    <loc>http://github.com/categories/Markdown/</loc>
     <lastmod>2021-02-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -258,7 +258,7 @@
   </url>
   
   <url>
-    <loc>http://github.com/categories/Markdown/</loc>
+    <loc>http://github.com/categories/%E8%A7%86%E8%A7%89/</loc>
     <lastmod>2021-02-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
