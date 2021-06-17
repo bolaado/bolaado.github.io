@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://github.com/2021/06/18/%E4%BF%A1%E5%8F%B7%E4%B8%8E%E7%B3%BB%E7%BB%9F-C%E5%9E%8B%E8%BF%9E%E7%BB%AD%E6%97%B6%E9%97%B4%E4%BF%A1%E5%8F%B7%E6%8F%8F%E8%BF%B0%E5%8F%8A%E8%BF%90%E7%AE%97/</loc>
+    
+    <lastmod>2021-06-17</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://github.com/2021/02/22/%E8%BF%90%E5%8A%A8%E7%89%A9%E4%BD%93%E6%A3%80%E6%B5%8B-%E9%A2%84%E6%B5%8B%E8%BF%90%E5%8A%A8%E6%96%B9%E5%90%91/</loc>
     
     <lastmod>2021-02-22</lastmod>
@@ -130,7 +137,7 @@
 
   <url>
     <loc>http://github.com/</loc>
-    <lastmod>2021-02-22</lastmod>
+    <lastmod>2021-06-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -138,112 +145,112 @@
   
   <url>
     <loc>http://github.com/tags/C/</loc>
-    <lastmod>2021-02-22</lastmod>
+    <lastmod>2021-06-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://github.com/tags/PaddleX/</loc>
-    <lastmod>2021-02-22</lastmod>
+    <lastmod>2021-06-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://github.com/tags/Paddle/</loc>
-    <lastmod>2021-02-22</lastmod>
+    <lastmod>2021-06-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://github.com/tags/dll/</loc>
-    <lastmod>2021-02-22</lastmod>
+    <lastmod>2021-06-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://github.com/tags/C-sharp/</loc>
-    <lastmod>2021-02-22</lastmod>
+    <lastmod>2021-06-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://github.com/tags/Python/</loc>
-    <lastmod>2021-02-22</lastmod>
+    <lastmod>2021-06-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://github.com/tags/C%E8%AF%AD%E8%A8%80/</loc>
-    <lastmod>2021-02-22</lastmod>
+    <lastmod>2021-06-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://github.com/tags/Windows/</loc>
-    <lastmod>2021-02-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://github.com/tags/github/</loc>
-    <lastmod>2021-02-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://github.com/tags/OpenCV/</loc>
-    <lastmod>2021-02-22</lastmod>
+    <lastmod>2021-06-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://github.com/tags/paddle/</loc>
-    <lastmod>2021-02-22</lastmod>
+    <lastmod>2021-06-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://github.com/tags/github/</loc>
+    <lastmod>2021-06-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://github.com/tags/OpenCV/</loc>
+    <lastmod>2021-06-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://github.com/tags/%E6%97%A5%E7%94%A8/</loc>
-    <lastmod>2021-02-22</lastmod>
+    <lastmod>2021-06-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://github.com/tags/conda/</loc>
-    <lastmod>2021-02-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://github.com/tags/%E9%80%86%E5%90%91/</loc>
-    <lastmod>2021-02-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://github.com/tags/re/</loc>
-    <lastmod>2021-02-22</lastmod>
+    <lastmod>2021-06-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://github.com/tags/%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B/</loc>
-    <lastmod>2021-02-22</lastmod>
+    <lastmod>2021-06-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://github.com/tags/%E9%80%86%E5%90%91/</loc>
+    <lastmod>2021-06-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://github.com/tags/re/</loc>
+    <lastmod>2021-06-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -252,49 +259,49 @@
   
   <url>
     <loc>http://github.com/categories/%E4%B8%87%E5%8D%83%E9%97%AE%E9%A2%98/</loc>
-    <lastmod>2021-02-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://github.com/categories/%E8%A7%86%E8%A7%89/</loc>
-    <lastmod>2021-02-22</lastmod>
+    <lastmod>2021-06-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://github.com/categories/%E5%AE%89%E8%A3%85/</loc>
-    <lastmod>2021-02-22</lastmod>
+    <lastmod>2021-06-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://github.com/categories/%E8%A7%86%E8%A7%89/</loc>
+    <lastmod>2021-06-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://github.com/categories/Markdown/</loc>
-    <lastmod>2021-02-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://github.com/categories/%E8%A7%86%E8%A7%89/OpenCV/</loc>
-    <lastmod>2021-02-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://github.com/categories/%E8%A7%86%E8%A7%89-OpenCV-%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B/</loc>
-    <lastmod>2021-02-22</lastmod>
+    <lastmod>2021-06-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://github.com/categories/%E5%AE%89%E8%A3%85/%E9%81%87%E8%A7%81%E7%9A%84%E9%97%AE%E9%A2%98/</loc>
-    <lastmod>2021-02-22</lastmod>
+    <lastmod>2021-06-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://github.com/categories/%E8%A7%86%E8%A7%89/OpenCV/</loc>
+    <lastmod>2021-06-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://github.com/categories/%E8%A7%86%E8%A7%89-OpenCV-%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B/</loc>
+    <lastmod>2021-06-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
