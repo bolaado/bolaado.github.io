@@ -6,7 +6,7 @@
   <link href="http://github.com/atom.xml" rel="self"/>
   
   <link href="http://github.com/"/>
-  <updated>2021-12-20T07:15:05.570Z</updated>
+  <updated>2022-01-06T16:15:25.795Z</updated>
   <id>http://github.com/</id>
   
   <author>
@@ -15,6 +15,88 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>简易波形发生器-四种波形</title>
+    <link href="http://github.com/2022/01/07/%E7%AE%80%E6%98%93%E6%B3%A2%E5%BD%A2%E5%8F%91%E7%94%9F%E5%99%A8-%E5%9B%9B%E7%A7%8D%E6%B3%A2%E5%BD%A2/"/>
+    <id>http://github.com/2022/01/07/%E7%AE%80%E6%98%93%E6%B3%A2%E5%BD%A2%E5%8F%91%E7%94%9F%E5%99%A8-%E5%9B%9B%E7%A7%8D%E6%B3%A2%E5%BD%A2/</id>
+    <published>2022-01-06T16:06:20.000Z</published>
+    <updated>2022-01-06T16:15:25.795Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="基于51单片机的波形发生器-四种波形"><a href="#基于51单片机的波形发生器-四种波形" class="headerlink" title="基于51单片机的波形发生器-四种波形"></a><font color="HotPink">基于51单片机的波形发生器-四种波形</font></h1><p>可以输出正弦波、方波、三角波、锯齿波四种波形，且频率和占空比可调，有指示灯指示按键的按下，本程序的思路是取编码</p><p>如需要程序源码可去我的另一篇博客下载第二个链接里的<br><a href="/2022/01/06/简易波形发生器源码+仿真文件下载/">简易波形发生器源码+仿真文件下载</a> </p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;基于51单片机的波形发生器-四种波形&quot;&gt;&lt;a href=&quot;#基于51单片机的波形发生器-四种波形&quot; class=&quot;headerlink&quot; title=&quot;基于51单片机的波形发生器-四种波形&quot;&gt;&lt;/a&gt;&lt;font color=&quot;HotPink&quot;&gt;基于51单片机的波形</summary>
+      
+    
+    
+    
+    
+    <category term="哈尔滨工业大学" scheme="http://github.com/tags/%E5%93%88%E5%B0%94%E6%BB%A8%E5%B7%A5%E4%B8%9A%E5%A4%A7%E5%AD%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>简易波形发生器源码+仿真文件下载</title>
+    <link href="http://github.com/2022/01/06/%E7%AE%80%E6%98%93%E6%B3%A2%E5%BD%A2%E5%8F%91%E7%94%9F%E5%99%A8%E6%BA%90%E7%A0%81-%E4%BB%BF%E7%9C%9F%E6%96%87%E4%BB%B6%E4%B8%8B%E8%BD%BD/"/>
+    <id>http://github.com/2022/01/06/%E7%AE%80%E6%98%93%E6%B3%A2%E5%BD%A2%E5%8F%91%E7%94%9F%E5%99%A8%E6%BA%90%E7%A0%81-%E4%BB%BF%E7%9C%9F%E6%96%87%E4%BB%B6%E4%B8%8B%E8%BD%BD/</id>
+    <published>2022-01-06T15:54:38.000Z</published>
+    <updated>2022-01-06T16:16:18.698Z</updated>
+    
+    <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <script id="hbeData" type="hbeData" data-hmacdigest="637c967695a24cc8409718e2abd535dce7ef7660e96663c06a0b8a180dcc06e6">12083aebbd31242a1f4a7b5891c1d4738fae0be315557359c538451dbaa81e09b55cf73d04b1d95bc3b951c9afcee0669915e3eee778ac932229f451a329c2017c5b38b48edda280e74b1ec0a9b92c792628bf294f02c4f85bbffa21defb8087cc76cb42bccbbdea02f0fad6d5b8216b6aced7c4bd9a08478466f9af8f6cf48dae4bb842c14563405eb3a247897aaf88839cce813c4a201367f50d8fd89e1e9ebe4884994ba6ffe14ce84e174e403a04bf5210850d6142cdd4932a449d665f5c4090d0f1ed227bc73818021ea177aa827af19f9f428368c5a0a727a7f3ca7e0cc2db98dc938cebda0ef2b6a0d931cecb</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-default">      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-default">密码可以打赏博主妹妹后获得哦>^<</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+    
+    
+    <summary type="html">这是没有密码可以看的嘛？</summary>
+    
+    
+    
+    
+    <category term="哈尔滨工业大学" scheme="http://github.com/tags/%E5%93%88%E5%B0%94%E6%BB%A8%E5%B7%A5%E4%B8%9A%E5%A4%A7%E5%AD%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>51单片机课设-简易波形发生器</title>
+    <link href="http://github.com/2022/01/06/51%E5%8D%95%E7%89%87%E6%9C%BA%E8%AF%BE%E8%AE%BE-%E7%AE%80%E6%98%93%E6%B3%A2%E5%BD%A2%E5%8F%91%E7%94%9F%E5%99%A8/"/>
+    <id>http://github.com/2022/01/06/51%E5%8D%95%E7%89%87%E6%9C%BA%E8%AF%BE%E8%AE%BE-%E7%AE%80%E6%98%93%E6%B3%A2%E5%BD%A2%E5%8F%91%E7%94%9F%E5%99%A8/</id>
+    <published>2022-01-06T15:12:49.000Z</published>
+    <updated>2022-01-06T16:15:00.958Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="基于51单片机的波形发生器"><a href="#基于51单片机的波形发生器" class="headerlink" title="基于51单片机的波形发生器"></a><font color="HotPink">基于51单片机的波形发生器</font></h1><p>以单片机AT89S51及ADC0832为核心设计简易波形发生器，产生三种信号波形：方波、锯齿波、三角波。要求：  </p><ol><li>设置六个LED小灯，三个对应信号类型，另三个对应幅值、频率、及占空比调节</li><li>设置四个按键K1~K4，其功能分别为：    <ul><li>K1：信号类型选择（方波、锯齿波、三角波） </li><li>K2：调节参数选择（幅值、频率、及占空比）</li><li>K3：对应参数增大，</li><li>K4：对应参数减小</li></ul></li><li>方波输出频率范围1KHz~10KHz的方波（以1K为步进）， 三个参数均可调，占空比的调节范围为（1：10—9：10）。注意占空比定义为高电平与全周期之比。</li><li>锯齿波和三角波，频率范围自定（报告中需要写明范围、设置原因及实现），可调节参数为频率</li></ol><p>本程序的思路是输出加加</p><p>如需要程序源码可去我的另一篇博客下载第一个链接里的<br><a href="/2022/01/06/简易波形发生器源码+仿真文件下载/">简易波形发生器源码+仿真文件下载</a> </p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;基于51单片机的波形发生器&quot;&gt;&lt;a href=&quot;#基于51单片机的波形发生器&quot; class=&quot;headerlink&quot; title=&quot;基于51单片机的波形发生器&quot;&gt;&lt;/a&gt;&lt;font color=&quot;HotPink&quot;&gt;基于51单片机的波形发生器&lt;/font&gt;&lt;/h1&gt;</summary>
+      
+    
+    
+    
+    
+    <category term="哈尔滨工业大学" scheme="http://github.com/tags/%E5%93%88%E5%B0%94%E6%BB%A8%E5%B7%A5%E4%B8%9A%E5%A4%A7%E5%AD%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>误差理论与数据处理课设</title>
+    <link href="http://github.com/2021/12/29/%E8%AF%AF%E5%B7%AE%E7%90%86%E8%AE%BA%E4%B8%8E%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86%E8%AF%BE%E8%AE%BE/"/>
+    <id>http://github.com/2021/12/29/%E8%AF%AF%E5%B7%AE%E7%90%86%E8%AE%BA%E4%B8%8E%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86%E8%AF%BE%E8%AE%BE/</id>
+    <published>2021-12-29T07:13:11.000Z</published>
+    <updated>2022-01-06T16:26:14.053Z</updated>
+    
+    <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <script id="hbeData" type="hbeData" data-hmacdigest="49c3a5276dd831b31f4042fd3df0b1d85889b179339bf60b1b07f1b7aa78bbb0">12083aebbd31242a1f4a7b5891c1d473f4eed564b041e6ca1a47016ca6b4b3048508fd6f011911c3ee874ca538f16d9bcdbf05b96a6c555123759714c0fb456dd98bc4da5450f39d54e57647887ec7e882a5ead6a6ddcee1464c2faee1e92921216356a7696efca15b2f161a813855f3d01cbb4f5be3980a3d69c9f56416a7e5149d3b1bacac45e6ba35f8abcf44042ace4c547b4995b01382fc3227e7b36ae4d360832afe7750e91a79525f7142cbed9a2a2069de7a96db956a99d90d16e055af98c076e8d84e6d46204b5544192fa55a5d0fc10a10fbf88530f5cc503a18b27f85908a090fef738f6c441fe2d1710a918408fd37394300bafbd46efbc677435b241d8e669fb7dc6c94ed94597be0e8e11e8cafaff41bd172da0a2460eca207a2a8ca8581412bd0b82a1eb9304563c6b2e0ada068210d2f04a7dab7944e456bd792536e4f42256a670cf2eafb535fc932e22efefab27ba7610f4f7a9afd14b0edce87fcd538291fbca62ad0a2f579287f40b6871a77bd67106f87e075032de074b508460bdf3e4781486fa31a3b5b50f065ba589fe8e7a1400d49888d0141194bd6ac49342714bfce75fd10e7348af8949784dd6f4943fdeb7a229e30de961f87a4e8bc8b70e3240e584e5bc2d39833faa3ebc7219e85b25aa75fb8328ea31c260370795bca3da9ca387e564a61e6d045ff0e6272ee59246ae1557ffe395cffe7fc17d50ae9616bcdf7fe3fc35d3026bc5955dd7e8c85dd5e79d517262e2ef822bb1103d40f903d293c59db476048d35e8199478db83f662b0b86e04e61477ced34457089e2d10c8e3a9509730612374a91936251fa08ac47a6ad79f004934e22916321f6c741f841e4474f111c1db0f8562026d2b9e034ecfb6c7c6f7624dc30b620a555e23723e51ae3b80b3332c2301969885615aca2cc4b6210e67e5c78c82c3ec475e064588b3150bdcc4c76d79007b1c6af88d2327267460231e3067091cfa14203eb6985d15b0c31514574a1b493948f1ad87edfcf97f7a85dfebe213b71aafeebd6c6d9c0d9f9ee53387b0b11c5184f6ed3c98501110412601abdfe62aab2d6d6c05616e147f7f63ab802821954b6cc421f5c3bc9b9ae52506ec1b33023a70e24cf7f631011c6243daeb64c3685ed99b2325637d76d5b01983243b90aaf4c5f30afdc97140c930b3aa58e3165b0578adce3dceeb62ac72e3fc2e6bc85edbe31546fbb724a46c8ec0728f3a1eda9238f59aa6091275d7fcf1bd8f4d1ffce4e261851ef61b4be2fef19fa76d0974a3116b868e9efc1018fa44a6c682a666a86b89f18ad0cf8432370680e81d4c57036a6d799d9bb0e10f507b937d0d757a91ca7444cf7954ae0fef67be1855f067d453ae73033fc89b745783b129ba6873faa88c409f557ea9f2f01d8530c197328bdfd71380c819e297e3948f339e58183ece2d35687ff15949fad335a3086ecfc24a32369f7c11ce89d9ba33db77d1284bc90e71597337fe2d201eafb3473a51dd0ded315848ff7b22310f89e907040108e82b15ec7bf88a2ef4f78772db7d4929611ed1315887f00d3e032d3646177114caeaa03292c34e46ec850fa2844fbddec9dbf273ecaa44ead2034feb1cfc7c894c00feacc2ca3f13783ec6b0da052efafcf73ee07832536047f59f27f60c703d97b704c901f26d42556f1a7045766f228b221daf4cc357dc8a22ae82bc9cebacbfffaf05f0322def1bc8f210007bacba56dddccf5a71c0ff5b1202ab4d42b5ddf212af05db2bc701eceafd0dcb92db30e03a511b0255c9984ca6e898270d5d4f6e1c50ed8cbd4d1cb56d842d56fc82fb3ebe25f5b85606b5de6a61e0fcb59d237c261d910c0d9f225f4090b15f459b874a33e31311aefb6e3c8413f9be317144e9936ce9686d6861a693dc85a0b36fc64ed980c327ec5c06abdcbe1f77d23faeff3e2c3c7b29247f67a6ea5f8e7b5bb7cfb5843a79dac4dde5e2cee19e4525e52f67bfaf04f51fd7b625bd74d46c8fa938bc97e6ec01a942ad9cb7387aee222560b6275f04d848970fee8ee8468742e12066c544a86e320ee5978c56e6e41906bfa6f655bce0ed153f1217a773065a977a889d39fd3c1f65cb6e488e9e58067858469ef35cd290cae1f6bbf440aed36b2639c248e7cb204d2974b42f06eb99fd305c2f8129abc4cabbd45169b16b662e0669e60e0327c445b9ab2094891814724feb7bd2b44e09679e135a50cea6b70e27b0236d69fafc600e4d1f9c968827392b85e41fbe50af53da9d1530537efdd40b01defb0e539e6f3aa25a3513ffe631d5ef56be9a907b97aec1a30cbef2aae43bd94bb28d96c3f34fca1c04415fef0af099fb42ddebfd4dad7b6864567eff724b870432173604c252e650a7304971f25bb094bda76650930264af3a6945c4b58daa143a56a85f9abe26694ef85cf777a51faafea89f0dc74a7047bb365c26f59df24334f084c0c35d58e7d5d21597ca4cf4d87ac5a5723a1d1c984cfb70b72c2525f02a8208166c1b77909bdcf9572729a67f02767bb47535d8610f81b6dceb62ad8919e3d31f2f820169f71da538631b916043284b02dc432235ea8a6370dcd777497d2675af74d93f1133a473b9c2b01bf9718fd056b4b31f6dcbf839f4912d88e0b195404ebfb6ee7f32c1a061339bd5ad96555dfff03919e011929e818538424c652ec91e6151864587e5eca21fd548933cf73060a8b9b824cf70b3f3c6d350095bcca379a7c5d37219cf3633ddf4f42c9190ef50164366c8deb6ffc27fc59eb8d5983ee490e51da02671a180afe5a1b41b63b91afba0903bf07da0daa784f3286481730489bafadcfcf3eb0069243df8db400b9e33b1c9f1fd23961c021742bb6a23eba25744939ef87209556926afce2a36bb5837e66a789bfee0337edf637c44dd1ca90e0f6ea4499015bd0707274f207d9fe44ef9afbebab174cfc9e541a8dd1fbcf84c5f0900849f35f7aff25dda0cfec1277cee4c038e6e8ab6085a45d7bc88b5433b770084dd23e1bcd03fc455570c76726445a369898b8895c49db5298d09507a5d522b072b2367ab481c79f83b9dede8d7960d0f90e03390114c45d5a545c85e6ae91336ea87b70d8a1478e2cd7b59b90b6a786b079cc52f2295840bd8194eeaea13a8bd328b2585fdf4c34bf1c8116e6dd789895c28cee7066b27ea6b045e24fa9d6e7a6e9218d4002ae8844e60531303f2899e27e1c3bd8b687958a275654d7f78fe9c488aed6a58fe358c72a6aab2f594d2ce24abac24a38bc82f0d06027ba0426e9571aa2a7e18414131d35fa662cd8a58bbe089166c665ca69d1440b16dfdad9378d0ea2eccfc6041aac7f0c895908ad463e1f22232646f696403c8db86d54fb99b66221a58ac8c3994ce378c7962514ba810206f60b46af9a56f518b9125e01086ffdcd</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-default">      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-default">密码可以打赏博主妹妹后获得哦>^<</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+    
+    
+    <summary type="html">这是没有密码可以看的嘛？</summary>
+    
+    
+    
+    
+    <category term="哈尔滨工业大学" scheme="http://github.com/tags/%E5%93%88%E5%B0%94%E6%BB%A8%E5%B7%A5%E4%B8%9A%E5%A4%A7%E5%AD%A6/"/>
+    
+  </entry>
   
   <entry>
     <title>非MAC笔记本搜不到iphone手机热点</title>
@@ -67,17 +149,17 @@
     <link href="http://github.com/2021/12/20/%E5%93%88%E5%B0%94%E6%BB%A8%E5%B7%A5%E4%B8%9A%E5%A4%A7%E5%AD%A6%E5%A8%81%E6%B5%B7-%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%8E%9F%E7%90%86%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/"/>
     <id>http://github.com/2021/12/20/%E5%93%88%E5%B0%94%E6%BB%A8%E5%B7%A5%E4%B8%9A%E5%A4%A7%E5%AD%A6%E5%A8%81%E6%B5%B7-%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%8E%9F%E7%90%86%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/</id>
     <published>2021-12-20T05:52:07.000Z</published>
-    <updated>2021-12-20T06:44:39.440Z</updated>
+    <updated>2022-01-06T16:19:15.229Z</updated>
     
-    <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <script id="hbeData" type="hbeData" data-hmacdigest="245e57de35d0272582c6a1a08d9b1026205edbd7219f79a0bb80e41a42c3e514">12083aebbd31242a1f4a7b5891c1d473a4e5ffeadcc7ec7aa6f4b572be5247d27ee70640bf2ce265fa375020abf06cf8400cadd4feb1f5eb4bc6cdd0fc65c724e0ed85fb49ca2f3301628668c714aeff26e8611dc6a6796598e7c379881cf7a080474bb81c45ce25fc6e07068d8bbeda62b3808b41bbf8d1cc6c13f18d5b9243</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-default">      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-    
-    
-    <summary type="html">Here&#39;s something encrypted, password is required to continue reading.</summary>
+    <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <script id="hbeData" type="hbeData" data-hmacdigest="245e57de35d0272582c6a1a08d9b1026205edbd7219f79a0bb80e41a42c3e514">12083aebbd31242a1f4a7b5891c1d473a4e5ffeadcc7ec7aa6f4b572be5247d27ee70640bf2ce265fa375020abf06cf8400cadd4feb1f5eb4bc6cdd0fc65c724e0ed85fb49ca2f3301628668c714aeff26e8611dc6a6796598e7c379881cf7a080474bb81c45ce25fc6e07068d8bbeda62b3808b41bbf8d1cc6c13f18d5b9243</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-default">      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-default">密码可以打赏博主妹妹后获得哦>^<</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
     
     
+    <summary type="html">这是没有密码可以看的嘛？</summary>
     
     
-    <category term="哈尔滨工业大学（威海）" scheme="http://github.com/tags/%E5%93%88%E5%B0%94%E6%BB%A8%E5%B7%A5%E4%B8%9A%E5%A4%A7%E5%AD%A6%EF%BC%88%E5%A8%81%E6%B5%B7%EF%BC%89/"/>
+    
+    
+    <category term="哈尔滨工业大学" scheme="http://github.com/tags/%E5%93%88%E5%B0%94%E6%BB%A8%E5%B7%A5%E4%B8%9A%E5%A4%A7%E5%AD%A6/"/>
     
   </entry>
   
@@ -86,17 +168,17 @@
     <link href="http://github.com/2021/12/20/%E5%93%88%E5%B0%94%E6%BB%A8%E5%B7%A5%E4%B8%9A%E5%A4%A7%E5%AD%A6%E5%A8%81%E6%B5%B7-%E6%95%B0%E5%AD%97%E4%BF%A1%E5%8F%B7%E5%A4%84%E7%90%86%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/"/>
     <id>http://github.com/2021/12/20/%E5%93%88%E5%B0%94%E6%BB%A8%E5%B7%A5%E4%B8%9A%E5%A4%A7%E5%AD%A6%E5%A8%81%E6%B5%B7-%E6%95%B0%E5%AD%97%E4%BF%A1%E5%8F%B7%E5%A4%84%E7%90%86%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/</id>
     <published>2021-12-20T05:48:50.000Z</published>
-    <updated>2021-12-20T08:08:41.030Z</updated>
+    <updated>2022-01-06T16:19:03.397Z</updated>
     
-    <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <script id="hbeData" type="hbeData" data-hmacdigest="ce14df076b75a22abcf50f9d0d439b2342861a978313e216a33356be562241af">12083aebbd31242a1f4a7b5891c1d473a4e5ffeadcc7ec7aa6f4b572be5247d2a2b54d6a30ab916dfd5186834e814703aa63ac60130fad9c1d57aef057ee687e77950296439c9e927bd0767a458290ca06ed7eb8560997756190f35b5f9118576ed1c30e25ed2eb80aa25e7a57775f67</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-default">      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-    
-    
-    <summary type="html">Here&#39;s something encrypted, password is required to continue reading.</summary>
+    <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <script id="hbeData" type="hbeData" data-hmacdigest="ce14df076b75a22abcf50f9d0d439b2342861a978313e216a33356be562241af">12083aebbd31242a1f4a7b5891c1d473a4e5ffeadcc7ec7aa6f4b572be5247d2a2b54d6a30ab916dfd5186834e814703aa63ac60130fad9c1d57aef057ee687e77950296439c9e927bd0767a458290ca06ed7eb8560997756190f35b5f9118576ed1c30e25ed2eb80aa25e7a57775f67</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-default">      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-default">密码可以打赏博主妹妹后获得哦>^<</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
     
     
+    <summary type="html">这是没有密码可以看的嘛？</summary>
     
     
-    <category term="哈尔滨工业大学威海" scheme="http://github.com/tags/%E5%93%88%E5%B0%94%E6%BB%A8%E5%B7%A5%E4%B8%9A%E5%A4%A7%E5%AD%A6%E5%A8%81%E6%B5%B7/"/>
+    
+    
+    <category term="哈尔滨工业大学" scheme="http://github.com/tags/%E5%93%88%E5%B0%94%E6%BB%A8%E5%B7%A5%E4%B8%9A%E5%A4%A7%E5%AD%A6/"/>
     
   </entry>
   
@@ -416,88 +498,6 @@
     <category term="Windows" scheme="http://github.com/tags/Windows/"/>
     
     <category term="paddle" scheme="http://github.com/tags/paddle/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Solving environment: failed with initial frozen solve.Retrying with flexible solve</title>
-    <link href="http://github.com/2020/10/01/Solving-environment-failed-with-initial-frozen-solve-Retrying-with-flexible-solve/"/>
-    <id>http://github.com/2020/10/01/Solving-environment-failed-with-initial-frozen-solve-Retrying-with-flexible-solve/</id>
-    <published>2020-10-01T13:49:40.000Z</published>
-    <updated>2021-02-06T13:28:28.270Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="Solving-environment-failed-with-initial-frozen-solve-Retrying-with-flexible-solve"><a href="#Solving-environment-failed-with-initial-frozen-solve-Retrying-with-flexible-solve" class="headerlink" title="Solving environment: failed with initial frozen solve.Retrying with flexible solve"></a>Solving environment: failed with initial frozen solve.Retrying with flexible solve</h1><p>用conda装paddle的时候出现了这个报错  </p><h2 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h2><p><code>conda update -n base conda</code><br><code>conda update --all</code><br><font color="BlueViolet">然后如果还是不行，就再加一行（但实际上大部分情况这样就可以了）</font><br><code>conda update --prefix</code><br>会自己跳出来一段后面的目录，不用管它回车就行了，然后常规操作，我挑出来过是否允许python.exe都点允许，然后命令行出现y/n就都填y就好，完成后再一次<code>conda update --all</code><br>最后安装好之后，尝试一下进入python解释器，输入</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">import paddle.fluid</span><br><span class="line">paddle.fluid.install_check.run_check()</span><br></pre></td></tr></table></figure><p>出现如下图就成功了<br><img src="/2020/10/01/Solving-environment-failed-with-initial-frozen-solve-Retrying-with-flexible-solve/1.png" alt></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;Solving-environment-failed-with-initial-frozen-solve-Retrying-with-flexible-solve&quot;&gt;&lt;a href=&quot;#Solving-environment-failed-with-initial</summary>
-      
-    
-    
-    
-    <category term="安装" scheme="http://github.com/categories/%E5%AE%89%E8%A3%85/"/>
-    
-    <category term="遇见的问题" scheme="http://github.com/categories/%E5%AE%89%E8%A3%85/%E9%81%87%E8%A7%81%E7%9A%84%E9%97%AE%E9%A2%98/"/>
-    
-    
-    <category term="paddle" scheme="http://github.com/tags/paddle/"/>
-    
-    <category term="conda" scheme="http://github.com/tags/conda/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>QGC安装</title>
-    <link href="http://github.com/2020/10/01/QGC%E5%AE%89%E8%A3%85/"/>
-    <id>http://github.com/2020/10/01/QGC%E5%AE%89%E8%A3%85/</id>
-    <published>2020-10-01T12:31:57.000Z</published>
-    <updated>2021-02-06T13:34:51.922Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="QGC安装"><a href="#QGC安装" class="headerlink" title="QGC安装"></a>QGC安装</h1><p>大部分的教程都太老了所以整理了一下自己写了一套</p><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><p>直接百度QGC选第一个进官网，进去后如下所示<br><img src="/2020/10/01/QGC%E5%AE%89%E8%A3%85/1.png" alt="1"><br>点download<br><img src="/2020/10/01/QGC%E5%AE%89%E8%A3%85/2.png" alt="2"><br>在Windows下点蓝字就可以开始下载，但是下载有点慢</p><h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p>安装就很简单</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;QGC安装&quot;&gt;&lt;a href=&quot;#QGC安装&quot; class=&quot;headerlink&quot; title=&quot;QGC安装&quot;&gt;&lt;/a&gt;QGC安装&lt;/h1&gt;&lt;p&gt;大部分的教程都太老了所以整理了一下自己写了一套&lt;/p&gt;
-&lt;h2 id=&quot;下载&quot;&gt;&lt;a href=&quot;#下载&quot; clas</summary>
-      
-    
-    
-    
-    <category term="安装" scheme="http://github.com/categories/%E5%AE%89%E8%A3%85/"/>
-    
-    
-    <category term="Windows" scheme="http://github.com/tags/Windows/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>HSV颜色识别且标注</title>
-    <link href="http://github.com/2020/05/31/HSV%E9%A2%9C%E8%89%B2%E8%AF%86%E5%88%AB%E4%B8%94%E6%A0%87%E6%B3%A8/"/>
-    <id>http://github.com/2020/05/31/HSV%E9%A2%9C%E8%89%B2%E8%AF%86%E5%88%AB%E4%B8%94%E6%A0%87%E6%B3%A8/</id>
-    <published>2020-05-31T06:54:12.000Z</published>
-    <updated>2021-02-06T13:31:51.978Z</updated>
-    
-    <content type="html"><![CDATA[<p><font color="HotPink">色调H</font><br>用角度度量，取值范围为0°～360°，从红色开始按逆时针方向计算，红色为0°，绿色为120°,蓝色为240°。它们的补色是：黄色为60°，青色为180°,品红为300°</p><p><font color="HotPink">饱和度S</font><br>饱和度S表示颜色接近光谱色的程度。一种颜色，可以看成是某种光谱色与白色混合的结果。其中光谱色所占的比例愈大，颜色接近光谱色的程度就愈高，颜色的饱和度也就愈高。饱和度高，颜色则深而艳。光谱色的白光成分为0，饱和度达到最高。通常取值范围为0%～100%，值越大，颜色越饱和</p><p><font color="HotPink">明度V</font><br>明度表示颜色明亮的程度，对于光源色，明度值与发光体的光亮度有关；对于物体色，此值和物体的透射比或反射比有关。通常取值范围为0%（黑）到100%（白）</p><h2 id="HSV表"><a href="#HSV表" class="headerlink" title="HSV表"></a>HSV表</h2><p><img src="/2020/05/31/HSV%E9%A2%9C%E8%89%B2%E8%AF%86%E5%88%AB%E4%B8%94%E6%A0%87%E6%B3%A8/1.png" alt></p><p><font color="DarkOrchid">如果想用的颜色不在HSV表里可以去查想要的颜色色号的rgb值，然后用<code>cv2.cvtcolor()</code>函数将bgr转成hsv<br>例如：</font></p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br></pre></td><td class="code"><pre><span class="line">color = np.uint8([[[<span class="number">203</span>, <span class="number">192</span>, <span class="number">255</span>]]])</span><br><span class="line">hsv = cv2.cvtColor(color, cv2.COLOR_BGR2HSV)</span><br><span class="line">```  </span><br><span class="line"></span><br><span class="line"><span class="comment">## 完整代码(视频中)</span></span><br><span class="line">```Python</span><br><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"><span class="keyword">import</span> cv2</span><br><span class="line"></span><br><span class="line">font = cv2.FONT_HERSHEY_SIMPLEX</span><br><span class="line">lower_green = np.array([<span class="number">35</span>, <span class="number">110</span>, <span class="number">106</span>])</span><br><span class="line">upper_green = np.array([<span class="number">77</span>, <span class="number">255</span>, <span class="number">255</span>])</span><br><span class="line"></span><br><span class="line">cap = cv2.VideoCapture(<span class="string">'F:/test/mp4.mp4'</span>)</span><br><span class="line"><span class="keyword">if</span> cap.isOpened():</span><br><span class="line">    flag = <span class="number">1</span></span><br><span class="line"><span class="keyword">else</span>:</span><br><span class="line">    flag = <span class="number">0</span></span><br><span class="line">num = <span class="number">0</span></span><br><span class="line"><span class="keyword">if</span> flag:</span><br><span class="line">    <span class="keyword">while</span> <span class="literal">True</span>:</span><br><span class="line">        ret, frame = cap.read()</span><br><span class="line"></span><br><span class="line">        <span class="keyword">if</span> <span class="keyword">not</span> ret:</span><br><span class="line">            <span class="keyword">break</span></span><br><span class="line">        hsv_img = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)</span><br><span class="line">        mask_green = cv2.inRange(hsv_img, lower_green, upper_green)</span><br><span class="line"></span><br><span class="line">        mask_green = cv2.medianBlur(mask_green, <span class="number">7</span>)</span><br><span class="line">        mask_green, contours, hierarchy = cv2.findContours(mask_green, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_NONE)</span><br><span class="line"></span><br><span class="line">        <span class="keyword">for</span> cnt <span class="keyword">in</span> contours:</span><br><span class="line">            (x, y, w, h) = cv2.boundingRect(cnt)</span><br><span class="line">            cv2.rectangle(frame, (x, y), (x + w, y + h), (<span class="number">0</span>, <span class="number">255</span>, <span class="number">255</span>), <span class="number">2</span>)</span><br><span class="line">            cv2.putText(frame, <span class="string">"Green"</span>, (x, y - <span class="number">5</span>), font, <span class="number">0.7</span>, (<span class="number">0</span>, <span class="number">255</span>, <span class="number">0</span>), <span class="number">2</span>)</span><br><span class="line"></span><br><span class="line">        num = num + <span class="number">1</span></span><br><span class="line">        cv2.imshow(<span class="string">"dection"</span>, frame)</span><br><span class="line">        cv2.imwrite(<span class="string">"imgs/%d.jpg"</span> % num, frame)</span><br><span class="line">        <span class="keyword">if</span> cv2.waitKey(<span class="number">20</span>) &amp; <span class="number">0xFF</span> == <span class="number">27</span>:</span><br><span class="line">            <span class="keyword">break</span></span><br><span class="line">cv2.waitKey(<span class="number">0</span>)</span><br><span class="line">cv2.destroyAllWindows()</span><br></pre></td></tr></table></figure>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&lt;font color=&quot;HotPink&quot;&gt;色调H&lt;/font&gt;&lt;br&gt;用角度度量，取值范围为0°～360°，从红色开始按逆时针方向计算，红色为0°，绿色为120°,蓝色为240°。它们的补色是：黄色为60°，青色为180°,品红为300°&lt;/p&gt;
-&lt;p&gt;&lt;font col</summary>
-      
-    
-    
-    
-    <category term="视觉" scheme="http://github.com/categories/%E8%A7%86%E8%A7%89/"/>
-    
-    <category term="OpenCV" scheme="http://github.com/categories/%E8%A7%86%E8%A7%89/OpenCV/"/>
-    
-    
-    <category term="Python" scheme="http://github.com/tags/Python/"/>
-    
-    <category term="OpenCV" scheme="http://github.com/tags/OpenCV/"/>
     
   </entry>
   
