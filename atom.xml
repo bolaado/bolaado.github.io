@@ -269,11 +269,11 @@
     <category term="万千问题" scheme="http://github.com/categories/%E4%B8%87%E5%8D%83%E9%97%AE%E9%A2%98/"/>
     
     
+    <category term="Windows" scheme="http://github.com/tags/Windows/"/>
+    
     <category term="Python" scheme="http://github.com/tags/Python/"/>
     
     <category term="C语言" scheme="http://github.com/tags/C%E8%AF%AD%E8%A8%80/"/>
-    
-    <category term="Windows" scheme="http://github.com/tags/Windows/"/>
     
   </entry>
   
@@ -357,9 +357,9 @@
     <category term="万千问题" scheme="http://github.com/categories/%E4%B8%87%E5%8D%83%E9%97%AE%E9%A2%98/"/>
     
     
-    <category term="Windows" scheme="http://github.com/tags/Windows/"/>
-    
     <category term="github" scheme="http://github.com/tags/github/"/>
+    
+    <category term="Windows" scheme="http://github.com/tags/Windows/"/>
     
   </entry>
   
